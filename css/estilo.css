@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/elvis_back.jpeg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    background-attachment:fixed;
+}
+.hero-content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    display: block;
+    box-sizing: border-box;
+    text-shadow: 3px 3px 2px black;
+
+}
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+.hero nav li{
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+    border: 1px solid white;
+    text-shadow: 1px 1px 10px yellow;
+}
+.hero nav a{
+    background-color: rgba(0,0,0,0.4);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.hero nav a:hover{
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.hero nav p{
+    text-align: right;
+    margin: 20px 50px 0 0;
+    display: block;
+}
+
+.hero-content p{
+    color: white;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-bottom: 1px white solid;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+background-color: white;
+padding: 10px;
+margin-top: 15px;
+overflow: auto;
+}
+.content-section div a{
+display: block;
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 29px;
+letter-spacing: 1px;
+}
+.content-section div a:hover{
+    background-color: rgba(0,0,0, 0.1);}
+.content-section div a{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card p{
+    background-color: rgb(255, 71, 71);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 0;
+}
+.content-header{
+    background-color: grey;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.content-header h2{
+    margin: 0;
+}
+.rodape p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    font-family: sans-serif;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
